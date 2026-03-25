@@ -1,0 +1,13 @@
+{
+  "name": "bump-it-test",
+  "version": "1.0.0",
+  "description": "Test project for bump-it plugin",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12"
+  }
+}

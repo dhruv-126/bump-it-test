@@ -14,7 +14,7 @@
     "@babel/preset-env": "^7.22.0",
     "css-loader": "5.2.7",
     "style-loader": "^3.3.3",
-    "brace-expansion": "1.1.11",
+    "brace-expansion": "1.1.12",
     "cookie": "0.6.0",
     "diff": "5.1.0",
     "esbuild": "0.24.2",

@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem "rack", "2.2.21"
 
 # GUAR-1191: danger 9.5.1 has security issue — fixed in 9.5.3
-gem "danger", "9.5.1"
+gem "danger", "9.5.3"
 
 # Internal gems — cannot be replicated (require MoneyForward internal gem registry)
 # GUAR-1707: mf_evora 1.23.1 → 1.24.1   (internal)

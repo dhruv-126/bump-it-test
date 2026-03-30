@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # GUAR-1708: rack 2.2.21 has security vulnerability — fixed in 2.2.22
-gem "rack", "2.2.21"
+gem "rack", "2.2.22"
 
 # GUAR-1191: danger 9.5.1 has security issue — fixed in 9.5.3
 gem "danger", "9.5.1"

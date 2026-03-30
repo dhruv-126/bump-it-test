@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# GUAR-1708: rack 2.2.21 has security vulnerability — fixed in 2.2.22
+gem "rack", "2.2.21"
+
+# GUAR-1191: danger 9.5.1 has security issue — fixed in 9.5.3
+gem "danger", "9.5.1"
+
+# Internal gems — cannot be replicated (require MoneyForward internal gem registry)
+# GUAR-1707: mf_evora 1.23.1 → 1.24.1   (internal)
+# GUAR-1304: support_group_ruby_client 2.4.0 → 2.6.0  (internal)
+
+# Non-automatable tasks — not version bumps
+# GUAR-1982: Review update the coffret-openapi-ruby-client   (review task)
+# GUAR-1804: Review coffret-openapi-ruby-client              (review task)
+# GUAR-1944: Prepare to release gem update milestone         (process/admin task)
+# GUAR-1700: Fix CA Gem Updates Notifier                     (bug fix, not a version bump)

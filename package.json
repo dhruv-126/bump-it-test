@@ -20,7 +20,7 @@
     "esbuild": "0.24.2",
     "es5-ext": "0.10.62",
     "fast-xml-parser": "5.3.3",
-    "jquery-ui": "1.13.1",
+    "jquery-ui": "1.13.2",
     "js-yaml": "4.1.0",
     "lodash": "4.17.20",
     "lodash-es": "4.17.20",
